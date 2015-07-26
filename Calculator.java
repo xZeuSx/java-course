@@ -9,6 +9,12 @@ public class Calculator{
 			this.result += param;
 		}
 	}
+	//Вычитаем параметры
+	public void subtraction(int ... params){
+		for(Integer param : params){
+			this.result -= param;
+		}
+	}
 	
 	//Получить результат
 	public int getResult(){
